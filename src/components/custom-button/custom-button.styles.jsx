@@ -11,6 +11,7 @@ const buttonStyles = css`
     border: 1px solid black;
     }
 `;
+
 const invertedButtonStyles = css`
     background-color: white;
     color: black;
@@ -32,7 +33,6 @@ const googleSignInStyles = css`
     border: none;
     }
 `;
-
 const getButtonStyles = props => {
     if (props.isGoogleSignIn) {
     return googleSignInStyles;
